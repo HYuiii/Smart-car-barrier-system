@@ -26,7 +26,7 @@ duration=pulseIn(echoPin, HIGH);
 // calculate the distance from car to sensor
 distance=(0.034*duration)/2;
 
-if(distance<=20){
+if(distance<=10){
   myservo.write(90);
   }
 else{
